@@ -13,7 +13,6 @@ Source:     %{name}-%{version}.tar.bz2
 Patch0:     %{name}.perl-modules-path.patch.bz2
 Patch1:     %{name}-3.1.stdin.patch.bz2
 BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 FLEMM is a Perl5 program that performs inflectional analysis on French texts
