@@ -1,6 +1,6 @@
 %define name    flemm
 %define version 3.1
-%define release %mkrel 6
+%define release %mkrel 8
 
 Name:       %{name}
 Version:    %{version}
