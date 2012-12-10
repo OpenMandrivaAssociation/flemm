@@ -1,2 +1,4 @@
 sources:
-  "flemm-3.1.tar.bz2:"	5ac7ff1a83ebded99c3601c64536d87834bea7c6
+  "flemm-3.1.stdin.patch.bz2": 6922d09369aec0238aac22daf30b5fa40b01d580
+  "flemm-3.1.tar.bz2": 5ac7ff1a83ebded99c3601c64536d87834bea7c6
+  "flemm.perl-modules-path.patch.bz2": 5ebf570dbce68481ee706994b4a7f8ef6989a6e7

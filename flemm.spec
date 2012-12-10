@@ -54,3 +54,49 @@ rm -rf %{buildroot}
 %{_bindir}/flemm.pl
 %{_datadir}/%{name}
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 3.1-10mdv2011.0
++ Revision: 618306
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 3.1-9mdv2010.0
++ Revision: 428797
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 3.1-8mdv2009.0
++ Revision: 245198
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Guillaume Rousse <guillomovitch@mandriva.org> 3.1-6mdv2008.1
++ Revision: 132425
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import flemm
+
+
+* Fri Aug 25 2006 Guillaume Rousse <guillomovitch@mandriva.org> 3.1-5mdv2007.0
+- %%mkrel
+
+* Fri Aug 19 2005 Guillaume Rousse <guillomovitch@mandriva.org> 3.1-4mdk
+- rebuild
+- spec cleanup
+- fix doc files encoding and perms
+
+* Fri Aug 06 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.1-3mdk 
+- stdin/stdout patch
+
+* Wed Jul 21 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.1-2mdk 
+- rebuild
+
+* Tue Apr 13 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.1-1mdk
+- new version
+
+* Thu Jan 08 2004 Guillaume Rousse <guillomovitch@mandrake.org> 2-1mdk
+- first mdk release
