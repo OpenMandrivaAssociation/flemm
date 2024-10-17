@@ -8,7 +8,7 @@ Release:    %{release}
 Summary:    Inflectional analysis on French texts
 License:    GPL
 Group:      Sciences/Computer science
-URL:        http://www.univ-nancy2.fr/pers/namer/Telecharger_Flemm.htm
+URL:        https://www.univ-nancy2.fr/pers/namer/Telecharger_Flemm.htm
 Source:     %{name}-%{version}.tar.bz2
 Patch0:     %{name}.perl-modules-path.patch.bz2
 Patch1:     %{name}-3.1.stdin.patch.bz2
